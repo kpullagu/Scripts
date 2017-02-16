@@ -5,7 +5,6 @@ echo "*********** Change Firewall to allow HTTP and HTTPS traffic**********"
 sudo firewall-cmd --permanent --zone=public --add-service=http
 sudo firewall-cmd --permanent --zone=public --add-service=https
 sudo firewall-cmd --reload
-
 echo "*********** Update Packages **********"
 sudo yum update
 
