@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 echo "Running LAMP Script for Centos 7.2!"
 echo "*********** Change Firewall to allow HTTP and HTTPS traffic**********"
 sudo firewall-cmd --permanent --zone=public --add-service=http
